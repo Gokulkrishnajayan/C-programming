@@ -179,8 +179,8 @@ void del_bw()
      {
       pre=temp; 
       temp=temp->link; 
-      pre->link=temp->link;   
-     } 
+     }      
+   pre->link=temp->link;    
  }
  printf("Element deleted");
 } 
